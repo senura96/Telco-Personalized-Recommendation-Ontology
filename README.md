@@ -1,0 +1,1 @@
+This repitory contains the ontology created fpr telco personalized recommendation. It contains the services , custommer and defined classes for segments defined under MobileCustomer and EnterpriseCustomer!
