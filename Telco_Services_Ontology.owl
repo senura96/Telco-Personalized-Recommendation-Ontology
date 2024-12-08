@@ -1,0 +1,4379 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.telcoserices.org/ontologies/2024/10/telco-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.telcoserices.org/ontologies/2024/10/telco-ontology">
+    <Prefix name="" IRI="http://www.telcoserices.org/ontologies/2024/10/telco-ontology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Telco Ontology that describe various teclo services including MobileServies , Fixed Telephony , Internet Services , Entertainment &amp; Media Services , Gamimg , Financial Services , Digital Lifestyle Services , Education , Smart Home Solutions , Cloud &amp; Hosting Solutions , Business Solutions and Community 7 Value Added Services</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#API_Integration_for_Business_Aplications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ampara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AndriodMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Android"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anuradhapura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AppleMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BroadbandMobileCustomers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business_Office_Telephone_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CloudMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clutter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClutterRegionSegments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colombo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corporate_Internet_Leased_Lines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corporate_VOIP_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Credit_and_Debit_Card_Payment_Integration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeviceBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeviceCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device_Insurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Devices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalBusiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalFinancialProductCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalTelcoBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalTransformationEnterpriseCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Advertising_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Marketing_Campaings_and_Analytics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Transformation_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EducationalMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnterpriseConnectivityEnterpriseCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnterpriseCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enterprise_SMS_and_USSD_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enterprise_VPN_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enterprises_Connectivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinancialMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Financial_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fixed_Telephony_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GamingMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming_Portal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gampaha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hatton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Insurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeavyInternetMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighIncomeHighPayingMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home_Broadband"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home_Broadband_Fiber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home_Broadeband"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home_Voice_Plans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IOTEnterpriseCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IOTMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IOT_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IVR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IVRMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrastucture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insurance_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#International_Roaming_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternetServiceProviderCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internet_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jaffna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kandy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kurunegala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LargeScaleHighPaying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LargeScaleLowPaying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Life_Insuracne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowIncomeLowPayingMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowScaleHighPaying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowScaleLowPaying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine_to_Machine_Connectivity_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Managed_Network_Services_for_Businesses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediumIncomeMediumPayingMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Merchant_Payment_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microsloans_through_Mobile_Wallet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobileCustomerSegment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobileCustomers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Number_Portability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Wallet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MusicMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#On_Demand_Video_Content"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_Financial_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#POS_Terminals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persomal_Loan_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postpaid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postpaid_Mobile_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prepaid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prepaid_Mobile_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puttalama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QR_Code_Payment_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QR_Scanners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rathnapura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoamingMiobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RuralRegions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMSAlertsMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SatelliteTVSreamingMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Satellite_TV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smart_Home_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuburbanRegions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suburbun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TelcoInfrastructureServicesCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TelcoMotherCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TelcoOperatingCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teleommunication_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urban"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UrbanRegions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utility_Bill_Payments_via_Mobile_Wallet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Value_Added_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle_Fleet_Management_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video_Streaming_Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voice_Over_LTE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voice_Over_WIFI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WIFI_Hotspot_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eSIM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eSports_Hosting_and_Support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pay_Per_View_Channels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4G"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4G_Home_Broadband"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4g_LTE_Mobile_Data_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5G"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5GMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5G_Internet_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5G_Mobile_Data_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cloud_Hosting_&amp;_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalAdvertising&amp;AnalyticsCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalConsulting&amp;SolutionsCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment_&amp;_Media_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_&amp;_Wellness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IOT_&amp;_M2M_Solutions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Wallets_&amp;_Payments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TV_&amp;_Streaming_Services"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ClutterHasRegions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToClutterRegionSegment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToEnterpriseSegment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToSegment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bundleWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClutterRegionSegment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSolutionProvider"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#linkedToRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preferService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requireDigitalconsulting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#userEnterpriseService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#userService"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aiSeeker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#arpu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cloudAdapter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#costSaver"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cyberGames"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#digitalTransformationSeeker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#enterpriseScale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gameLover"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#genieUser"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#greenTechSeeker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIncome"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUserRegion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#innovationSeeker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#iotInnovator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#marketingAnalyticsSeeker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#movieLover"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#parent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#preferred_langugage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#profession"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#promotionalSeeker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#religion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#remoteWorkFriendly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#securityFocused"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#socialMediaLover"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sportsLover"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#starpointUser"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#viuAppUser"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#whatsappUser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ADA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AWSCloud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AdaDeranaNews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Axiata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AxiataDigitalLabs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CallOfDutyMultiPlayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cricket_Commentry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cricketer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DPEducation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daily_Mirror_Alerts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Damma_Quotes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dialog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DialogCloud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DialogInboundRoamingService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DialogMobileNumberPortabilityService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DialogOutboundRoamingService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DialogPOSService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DialogQR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DialogSmartTV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dialog_Fun_Blaster_Postpaid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dialog_Fun_Blaster_Prepaid_Plan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dialog_Voice_Over_LTE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dialog_Voice_Over_WiFi_Service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiaogTV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Driver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edotco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FIFA24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FixedBusinessOffice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FixedHomeBroadband"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FixedVoicePlan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ForzaMultiPlayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fun4GFiberService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fun4GHomeBroadband"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fun4GService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fun5GFiberService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fun5GHomeBroadband"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fun5GService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FunDeviceInsurance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FunMicroLoan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FunMobileWallet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FunOffice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FunPersonalLoans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gamer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gaminguser1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HidramaniEnterprseCustomer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighPayingCustomerAmpara_-_Lawyer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighPayingMobileCustomer-Doctor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HiruBreakingNews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HungamaMusicService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IFSCloud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IVR_Lottery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LinkNet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowPayingMobileCustomer-Campus_Student"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumPayingMobileCustomer-Teacher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MobiDeviceInsurance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MobiMicroLans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MobiPOSSales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MobiPersonalLoans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MobiQR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MobiteleSims"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyCreditPay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyDebitPay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyHealthInsurance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyLifeInsurance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyMobileWallet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyPay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyQRCodes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyYoga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyZumba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NFSMobileGame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ncell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NenaSala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nimal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PRBTMusicService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PeoTV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PubGMobileGame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PunchiLokayaIVR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Robi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sadaham_Mihira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpotifyMusicService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WowSuperApp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YoutubeMusicService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zUser1"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AndriodMobileCustomer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+            <Class IRI="#Android"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AppleMobileCustomer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+            <Class IRI="#Apple"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#BroadbandMobileCustomers"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Home_Broadband"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Home_Broadband_Fiber"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Home_Broadband"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Home_Broadband_Fiber"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CloudMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Cloud_Hosting_&amp;_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Cloud_Hosting_&amp;_Solutions"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DigitalTransformationEnterpriseCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#API_Integration_for_Business_Aplications"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Digital_Advertising_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Digital_Marketing_Campaings_and_Analytics"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Enterprise_SMS_and_USSD_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#API_Integration_for_Business_Aplications"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Digital_Advertising_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Digital_Marketing_Campaings_and_Analytics"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Enterprise_SMS_and_USSD_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <DataMinCardinality cardinality="2">
+                <DataProperty IRI="#digitalTransformationSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EducationalMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Education_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Education_Services"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EnterpriseConnectivityEnterpriseCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Corporate_VOIP_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Enterprise_VPN_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Managed_Network_Services_for_Businesses"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Corporate_VOIP_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Enterprise_VPN_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Managed_Network_Services_for_Businesses"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EnterpriseCustomer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+            <Class IRI="#Business_Solutions"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FinancialMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Credit_and_Debit_Card_Payment_Integration"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Device_Insurance"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Health_Insurance"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Insurance_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Life_Insuracne"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Microsloans_through_Mobile_Wallet"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Mobile_Wallet"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Other_Financial_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#POS_Terminals"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Persomal_Loan_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#QR_Code_Payment_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#QR_Scanners"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Utility_Bill_Payments_via_Mobile_Wallet"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Mobile_Wallets_&amp;_Payments"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Credit_and_Debit_Card_Payment_Integration"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Device_Insurance"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Health_Insurance"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Insurance_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Life_Insuracne"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Microsloans_through_Mobile_Wallet"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Mobile_Wallet"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Other_Financial_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#POS_Terminals"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Persomal_Loan_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#QR_Code_Payment_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#QR_Scanners"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Utility_Bill_Payments_via_Mobile_Wallet"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Mobile_Wallets_&amp;_Payments"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GamingMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Gaming"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Gaming"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GamingMobileCustomer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#preferService"/>
+            <Class IRI="#Gaming_Portal"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GamingMobileCustomer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#preferService"/>
+            <Class IRI="#eSports_Hosting_and_Support"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GamingMobileCustomer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#userService"/>
+            <Class IRI="#Gaming_Portal"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GamingMobileCustomer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#userService"/>
+            <Class IRI="#eSports_Hosting_and_Support"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HeavyInternetMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Home_Broadband"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Home_Broadband_Fiber"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Voice_Over_LTE"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Voice_Over_WIFI"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#WIFI_Hotspot_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#4G_Home_Broadband"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#4g_LTE_Mobile_Data_Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#5G_Internet_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#5G_Mobile_Data_plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Home_Broadband"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Home_Broadband_Fiber"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Voice_Over_LTE"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Voice_Over_WIFI"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#WIFI_Hotspot_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#4G_Home_Broadband"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#4g_LTE_Mobile_Data_Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#5G_Internet_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#5G_Mobile_Data_plan"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HighIncomeHighPayingMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Digital_Lifestyle_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Financial_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Teleommunication_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Value_Added_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Entertainment_&amp;_Media_Services"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#age"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">70</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#arpu"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasIncome"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50000000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataAllValuesFrom>
+                <DataProperty IRI="#gender"/>
+                <DataOneOf>
+                    <Literal>female</Literal>
+                    <Literal>male</Literal>
+                </DataOneOf>
+            </DataAllValuesFrom>
+            <DataMinCardinality cardinality="3">
+                <DataProperty IRI="#cyberGames"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="4">
+                <DataProperty IRI="#entertainmentMusicLover"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="3">
+                <DataProperty IRI="#gameLover"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="4">
+                <DataProperty IRI="#genieUser"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="4">
+                <DataProperty IRI="#movieLover"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="2">
+                <DataProperty IRI="#parent"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="4">
+                <DataProperty IRI="#promotionalSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="3">
+                <DataProperty IRI="#socialMediaLover"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="4">
+                <DataProperty IRI="#socialMediaLover"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="4">
+                <DataProperty IRI="#starpointUser"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="3">
+                <DataProperty IRI="#viuAppUser"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="4">
+                <DataProperty IRI="#whatsappUser"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HighIncomeHighPayingMobileCustomer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+            <ObjectUnionOf>
+                <Class IRI="#Android"/>
+                <Class IRI="#Apple"/>
+                <Class IRI="#4G"/>
+                <Class IRI="#5G"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HighIncomeHighPayingMobileCustomer"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#preferred_langugage"/>
+            <DataOneOf>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">english</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">sinhala</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">tamil</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IOTEnterpriseCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Machine_to_Machine_Connectivity_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Vehicle_Fleet_Management_Solutions"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Machine_to_Machine_Connectivity_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Vehicle_Fleet_Management_Solutions"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IOTMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#IOT_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Smart_Home_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#IOT_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Smart_Home_Services"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IVRMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#IVR"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#IVR"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LargeScaleHighPaying"/>
+        <ObjectIntersectionOf>
+            <DataAllValuesFrom>
+                <DataProperty IRI="#enterpriseScale"/>
+                <DataOneOf>
+                    <Literal>large</Literal>
+                </DataOneOf>
+            </DataAllValuesFrom>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#aiSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#cloudAdapter"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#costSaver"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#digitalTransformationSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#greenTechSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#innovationSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#iotInnovator"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#marketingAnalyticsSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#remoteWorkFriendly"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="7">
+                <DataProperty IRI="#securityFocused"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LargeScaleHighPaying"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Digital_Transformation_Services"/>
+                <Class IRI="#Enterprises_Connectivity"/>
+                <Class IRI="#IOT_&amp;_M2M_Solutions"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LargeScaleLowPaying"/>
+        <ObjectIntersectionOf>
+            <DataAllValuesFrom>
+                <DataProperty IRI="#enterpriseScale"/>
+                <DataOneOf>
+                    <Literal>large</Literal>
+                </DataOneOf>
+            </DataAllValuesFrom>
+            <DataMinCardinality cardinality="3">
+                <DataProperty IRI="#costSaver"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="5">
+                <DataProperty IRI="#digitalTransformationSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="5">
+                <DataProperty IRI="#greenTechSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="5">
+                <DataProperty IRI="#innovationSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="5">
+                <DataProperty IRI="#iotInnovator"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="5">
+                <DataProperty IRI="#marketingAnalyticsSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="5">
+                <DataProperty IRI="#remoteWorkFriendly"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="5">
+                <DataProperty IRI="#securityFocused"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMaxCardinality cardinality="5">
+                <DataProperty IRI="#aiSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="5">
+                <DataProperty IRI="#cloudAdapter"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LargeScaleLowPaying"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Digital_Transformation_Services"/>
+                <Class IRI="#Enterprises_Connectivity"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowIncomeLowPayingMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <DataAllValuesFrom>
+                <DataProperty IRI="#gender"/>
+                <DataOneOf>
+                    <Literal>female</Literal>
+                    <Literal>male</Literal>
+                </DataOneOf>
+            </DataAllValuesFrom>
+            <DataMaxCardinality cardinality="30">
+                <DataProperty IRI="#arpu"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#cyberGames"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="2">
+                <DataProperty IRI="#entertainmentMusicLover"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#gameLover"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#genieUser"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="50000">
+                <DataProperty IRI="#hasIncome"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#movieLover"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#parent"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="41">
+                <DataProperty IRI="#promotionalSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#socialMediaLover"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#starpointUser"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#viuAppUser"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#whatsappUser"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowIncomeLowPayingMobileCustomer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+            <ObjectUnionOf>
+                <Class IRI="#Android"/>
+                <Class IRI="#4G"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowIncomeLowPayingMobileCustomer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMobileCustomer"/>
+            <Class IRI="#Mobile_Services"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowIncomeLowPayingMobileCustomer"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#age"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">70</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowIncomeLowPayingMobileCustomer"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasIncome"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:decimal"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5000</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100000</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowIncomeLowPayingMobileCustomer"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#preferred_langugage"/>
+            <DataOneOf>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">english</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">sinhala</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">tamil</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowScaleHighPaying"/>
+        <ObjectIntersectionOf>
+            <DataAllValuesFrom>
+                <DataProperty IRI="#enterpriseScale"/>
+                <DataOneOf>
+                    <Literal>low</Literal>
+                </DataOneOf>
+            </DataAllValuesFrom>
+            <DataMinCardinality cardinality="4">
+                <DataProperty IRI="#costSaver"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="2">
+                <DataProperty IRI="#digitalTransformationSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="2">
+                <DataProperty IRI="#greenTechSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="2">
+                <DataProperty IRI="#innovationSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="2">
+                <DataProperty IRI="#iotInnovator"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="2">
+                <DataProperty IRI="#marketingAnalyticsSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="2">
+                <DataProperty IRI="#remoteWorkFriendly"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="2">
+                <DataProperty IRI="#securityFocused"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMaxCardinality cardinality="2">
+                <DataProperty IRI="#aiSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="2">
+                <DataProperty IRI="#cloudAdapter"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowScaleHighPaying"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Digital_Transformation_Services"/>
+                <Class IRI="#Enterprises_Connectivity"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowScaleLowPaying"/>
+        <ObjectIntersectionOf>
+            <DataAllValuesFrom>
+                <DataProperty IRI="#enterpriseScale"/>
+                <DataOneOf>
+                    <Literal>low</Literal>
+                </DataOneOf>
+            </DataAllValuesFrom>
+            <DataMinCardinality cardinality="5">
+                <DataProperty IRI="#costSaver"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="1">
+                <DataProperty IRI="#digitalTransformationSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="1">
+                <DataProperty IRI="#greenTechSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="1">
+                <DataProperty IRI="#innovationSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="1">
+                <DataProperty IRI="#iotInnovator"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="1">
+                <DataProperty IRI="#marketingAnalyticsSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="1">
+                <DataProperty IRI="#remoteWorkFriendly"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMinCardinality cardinality="1">
+                <DataProperty IRI="#securityFocused"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMinCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#aiSeeker"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+            <DataMaxCardinality cardinality="1">
+                <DataProperty IRI="#cloudAdapter"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LowScaleLowPaying"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+            <Class IRI="#Enterprises_Connectivity"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MediumIncomeMediumPayingMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#arpu"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#cyberGames"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#entertainmentMusicLover"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#gameLover"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#genieUser"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasIncome"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="rdfs:Literal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">50000</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">40000000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#movieLover"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#parent"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#promotionalSeeker"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#socialMediaLover"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#starpointUser"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#viuAppUser"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#whatsappUser"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataAllValuesFrom>
+                <DataProperty IRI="#gender"/>
+                <DataOneOf>
+                    <Literal>female</Literal>
+                    <Literal>male</Literal>
+                </DataOneOf>
+            </DataAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MediumIncomeMediumPayingMobileCustomer"/>
+        <ObjectUnionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Financial_Services"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Teleommunication_Services"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Value_Added_Services"/>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MediumIncomeMediumPayingMobileCustomer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+            <ObjectUnionOf>
+                <Class IRI="#Android"/>
+                <Class IRI="#5G"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MediumIncomeMediumPayingMobileCustomer"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#age"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">70</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MediumIncomeMediumPayingMobileCustomer"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasIncome"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:decimal"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100000</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5000000</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MediumIncomeMediumPayingMobileCustomer"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#preferred_langugage"/>
+            <DataOneOf>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">english</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">sinhala</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">tamil</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MobileCustomerSegment"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Postpaid_Mobile_Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Prepaid_Mobile_Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Postpaid_Mobile_Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Prepaid_Mobile_Plan"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MobileCustomers"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Digital_Lifestyle_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Financial_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Teleommunication_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Value_Added_Services"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMobileCustomer"/>
+                <Class IRI="#Entertainment_&amp;_Media_Services"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MusicMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Music"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Music"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Postpaid"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Postpaid_Mobile_Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Postpaid_Mobile_Plan"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Prepaid"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Prepaid_Mobile_Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Prepaid_Mobile_Plan"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RoamingMiobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#International_Roaming_Service"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Mobile_Number_Portability"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#International_Roaming_Service"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Mobile_Number_Portability"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RuralRegions"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ClutterHasRegions"/>
+            <ObjectUnionOf>
+                <Class IRI="#Ampara"/>
+                <Class IRI="#Puttalama"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SMSAlertsMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#SMS"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#SMS"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SatelliteTVSreamingMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#On_Demand_Video_Content"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Satellite_TV"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#Video_Streaming_Platform"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#preferService"/>
+                <Class IRI="#pay_Per_View_Channels"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#On_Demand_Video_Content"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Satellite_TV"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#Video_Streaming_Platform"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#userService"/>
+                <Class IRI="#pay_Per_View_Channels"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SuburbanRegions"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ClutterHasRegions"/>
+            <ObjectUnionOf>
+                <Class IRI="#Anuradhapura"/>
+                <Class IRI="#Hatton"/>
+                <Class IRI="#Jaffna"/>
+                <Class IRI="#Rathnapura"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UrbanRegions"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#ClutterHasRegions"/>
+                <Class IRI="#Colombo"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#ClutterHasRegions"/>
+                <Class IRI="#Galle"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#ClutterHasRegions"/>
+                <Class IRI="#Gampaha"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#ClutterHasRegions"/>
+                <Class IRI="#Kandy"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#ClutterHasRegions"/>
+                <Class IRI="#Kurunegala"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#ClutterHasRegions"/>
+                <Class IRI="#Matara"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#5GMobileCustomer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+                <Class IRI="#5G"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasClutterRegionSegment"/>
+                <Class IRI="#UrbanRegions"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#API_Integration_for_Business_Aplications"/>
+        <Class IRI="#Digital_Transformation_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ampara"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AndriodMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Android"/>
+        <Class IRI="#DeviceBrand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anuradhapura"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple"/>
+        <Class IRI="#DeviceBrand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AppleMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BroadbandMobileCustomers"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_Office_Telephone_Solutions"/>
+        <Class IRI="#Fixed_Telephony_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_Solutions"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloudMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clutter"/>
+        <Class IRI="#Locations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClutterRegionSegments"/>
+        <Class IRI="#Locations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colombo"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corporate_Internet_Leased_Lines"/>
+        <Class IRI="#Internet_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corporate_VOIP_Solutions"/>
+        <Class IRI="#Enterprises_Connectivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Credit_and_Debit_Card_Payment_Integration"/>
+        <Class IRI="#Mobile_Wallets_&amp;_Payments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviceBrand"/>
+        <Class IRI="#Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviceCapability"/>
+        <Class IRI="#Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device_Insurance"/>
+        <Class IRI="#Insurance_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalBusiness"/>
+        <Class IRI="#TelcoMotherCompany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalFinancialProductCompany"/>
+        <Class IRI="#DigitalTelcoBrand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalTelcoBrand"/>
+        <Class IRI="#TelcoMotherCompany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalTransformationEnterpriseCustomer"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Advertising_Solutions"/>
+        <Class IRI="#Digital_Transformation_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Marketing_Campaings_and_Analytics"/>
+        <Class IRI="#Digital_Transformation_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Transformation_Services"/>
+        <Class IRI="#Business_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education_Services"/>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EducationalMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnterpriseConnectivityEnterpriseCustomer"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnterpriseCustomer"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enterprise_SMS_and_USSD_Solutions"/>
+        <Class IRI="#Digital_Transformation_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enterprise_VPN_Solutions"/>
+        <Class IRI="#Enterprises_Connectivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enterprises_Connectivity"/>
+        <Class IRI="#Business_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinancialMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Financial_Services"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fixed_Telephony_Services"/>
+        <Class IRI="#Teleommunication_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galle"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming"/>
+        <Class IRI="#Value_Added_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GamingMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming_Portal"/>
+        <Class IRI="#Gaming_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming_Services"/>
+        <Class IRI="#Entertainment_&amp;_Media_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gampaha"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hatton"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Insurance"/>
+        <Class IRI="#Insurance_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeavyInternetMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighIncomeHighPayingMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Home_Broadband"/>
+        <Class IRI="#Internet_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Home_Broadband_Fiber"/>
+        <Class IRI="#Internet_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Home_Broadeband"/>
+        <Class IRI="#Fixed_Telephony_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Home_Voice_Plans"/>
+        <Class IRI="#Fixed_Telephony_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IOTEnterpriseCustomer"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IOTMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IOT_Services"/>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IVR"/>
+        <Class IRI="#Value_Added_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IVRMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infrastucture"/>
+        <Class IRI="#TelcoMotherCompany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insurance_Solutions"/>
+        <Class IRI="#Other_Financial_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#International_Roaming_Service"/>
+        <Class IRI="#Mobile_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternetServiceProviderCompany"/>
+        <Class IRI="#Infrastucture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internet_Services"/>
+        <Class IRI="#Teleommunication_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jaffna"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kandy"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kurunegala"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LargeScaleHighPaying"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LargeScaleLowPaying"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Life_Insuracne"/>
+        <Class IRI="#Insurance_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowIncomeLowPayingMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowScaleHighPaying"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowScaleLowPaying"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine_to_Machine_Connectivity_Services"/>
+        <Class IRI="#IOT_&amp;_M2M_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Managed_Network_Services_for_Businesses"/>
+        <Class IRI="#Enterprises_Connectivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matara"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumIncomeMediumPayingMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Merchant_Payment_Solutions"/>
+        <Class IRI="#Other_Financial_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microsloans_through_Mobile_Wallet"/>
+        <Class IRI="#Other_Financial_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobileCustomerSegment"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobileCustomers"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Number_Portability"/>
+        <Class IRI="#Mobile_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Services"/>
+        <Class IRI="#Teleommunication_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Wallet"/>
+        <Class IRI="#Mobile_Wallets_&amp;_Payments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Music"/>
+        <Class IRI="#Value_Added_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MusicMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#On_Demand_Video_Content"/>
+        <Class IRI="#TV_&amp;_Streaming_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other_Financial_Solutions"/>
+        <Class IRI="#Financial_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#POS_Terminals"/>
+        <Class IRI="#Merchant_Payment_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persomal_Loan_Services"/>
+        <Class IRI="#Other_Financial_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postpaid"/>
+        <Class IRI="#MobileCustomers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postpaid_Mobile_Plan"/>
+        <Class IRI="#Mobile_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prepaid"/>
+        <Class IRI="#MobileCustomers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prepaid_Mobile_Plan"/>
+        <Class IRI="#Mobile_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puttalama"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QR_Code_Payment_Services"/>
+        <Class IRI="#Mobile_Wallets_&amp;_Payments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QR_Scanners"/>
+        <Class IRI="#Merchant_Payment_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rathnapura"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#Locations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoamingMiobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rural"/>
+        <Class IRI="#Clutter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuralRegions"/>
+        <Class IRI="#ClutterRegionSegments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuralRegions"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+            <ObjectUnionOf>
+                <Class IRI="#Android"/>
+                <Class IRI="#4G"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMS"/>
+        <Class IRI="#Value_Added_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMSAlertsMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatelliteTVSreamingMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satellite_TV"/>
+        <Class IRI="#TV_&amp;_Streaming_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smart_Home_Services"/>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuburbanRegions"/>
+        <Class IRI="#ClutterRegionSegments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuburbanRegions"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+            <ObjectUnionOf>
+                <Class IRI="#Android"/>
+                <Class IRI="#Apple"/>
+                <Class IRI="#4G"/>
+                <Class IRI="#5G"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suburbun"/>
+        <Class IRI="#Clutter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TelcoInfrastructureServicesCompany"/>
+        <Class IRI="#Infrastucture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TelcoOperatingCompany"/>
+        <Class IRI="#DigitalBusiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teleommunication_Services"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urban"/>
+        <Class IRI="#Clutter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrbanRegions"/>
+        <Class IRI="#ClutterRegionSegments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrbanRegions"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+            <ObjectUnionOf>
+                <Class IRI="#Android"/>
+                <Class IRI="#Apple"/>
+                <Class IRI="#4G"/>
+                <Class IRI="#5G"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utility_Bill_Payments_via_Mobile_Wallet"/>
+        <Class IRI="#Mobile_Wallets_&amp;_Payments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Value_Added_Services"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle_Fleet_Management_Solutions"/>
+        <Class IRI="#IOT_&amp;_M2M_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video_Streaming_Platform"/>
+        <Class IRI="#TV_&amp;_Streaming_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voice_Over_LTE"/>
+        <Class IRI="#Mobile_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voice_Over_WIFI"/>
+        <Class IRI="#Mobile_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WIFI_Hotspot_Services"/>
+        <Class IRI="#Internet_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eSIM"/>
+        <Class IRI="#Mobile_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eSports_Hosting_and_Support"/>
+        <Class IRI="#Gaming_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pay_Per_View_Channels"/>
+        <Class IRI="#TV_&amp;_Streaming_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4G"/>
+        <Class IRI="#DeviceCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4G_Home_Broadband"/>
+        <Class IRI="#Internet_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4g_LTE_Mobile_Data_Plan"/>
+        <Class IRI="#Mobile_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5G"/>
+        <Class IRI="#DeviceCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5GMobileCustomer"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5G_Internet_Services"/>
+        <Class IRI="#Internet_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5G_Mobile_Data_plan"/>
+        <Class IRI="#Mobile_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cloud_Hosting_&amp;_Solutions"/>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalAdvertising&amp;AnalyticsCompany"/>
+        <Class IRI="#DigitalTelcoBrand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalConsulting&amp;SolutionsCompany"/>
+        <Class IRI="#DigitalTelcoBrand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment_&amp;_Media_Services"/>
+        <Class IRI="#Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_&amp;_Wellness"/>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IOT_&amp;_M2M_Solutions"/>
+        <Class IRI="#Business_Solutions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Wallets_&amp;_Payments"/>
+        <Class IRI="#Financial_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TV_&amp;_Streaming_Services"/>
+        <Class IRI="#Entertainment_&amp;_Media_Services"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#DigitalBusiness"/>
+        <Class IRI="#DigitalTelcoBrand"/>
+        <Class IRI="#Infrastucture"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#DigitalConsulting&amp;SolutionsCompany"/>
+        <NamedIndividual IRI="#ADA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cloud_Hosting_&amp;_Solutions"/>
+        <NamedIndividual IRI="#AWSCloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMS"/>
+        <NamedIndividual IRI="#AdaDeranaNews"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TelcoMotherCompany"/>
+        <NamedIndividual IRI="#Axiata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitalAdvertising&amp;AnalyticsCompany"/>
+        <NamedIndividual IRI="#AxiataDigitalLabs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitalFinancialProductCompany"/>
+        <NamedIndividual IRI="#Boost"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming_Portal"/>
+        <NamedIndividual IRI="#CallOfDutyMultiPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HeavyInternetMobileCustomer"/>
+        <NamedIndividual IRI="#CallOfDutyMultiPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#eSports_Hosting_and_Support"/>
+        <NamedIndividual IRI="#CallOfDutyMultiPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IVR"/>
+        <NamedIndividual IRI="#Cricket_Commentry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Education_Services"/>
+        <NamedIndividual IRI="#DPEducation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMS"/>
+        <NamedIndividual IRI="#Daily_Mirror_Alerts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMS"/>
+        <NamedIndividual IRI="#Damma_Quotes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TelcoOperatingCompany"/>
+        <NamedIndividual IRI="#Dialog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cloud_Hosting_&amp;_Solutions"/>
+        <NamedIndividual IRI="#DialogCloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Roaming_Service"/>
+        <NamedIndividual IRI="#DialogInboundRoamingService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobile_Number_Portability"/>
+        <NamedIndividual IRI="#DialogMobileNumberPortabilityService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Roaming_Service"/>
+        <NamedIndividual IRI="#DialogOutboundRoamingService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#POS_Terminals"/>
+        <NamedIndividual IRI="#DialogPOSService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QR_Scanners"/>
+        <NamedIndividual IRI="#DialogQR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pay_Per_View_Channels"/>
+        <NamedIndividual IRI="#DialogSmartTV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postpaid_Mobile_Plan"/>
+        <NamedIndividual IRI="#Dialog_Fun_Blaster_Postpaid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prepaid_Mobile_Plan"/>
+        <NamedIndividual IRI="#Dialog_Fun_Blaster_Prepaid_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Voice_Over_LTE"/>
+        <NamedIndividual IRI="#Dialog_Voice_Over_LTE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Voice_Over_WIFI"/>
+        <NamedIndividual IRI="#Dialog_Voice_Over_WiFi_Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellite_TV"/>
+        <NamedIndividual IRI="#DiaogTV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TelcoInfrastructureServicesCompany"/>
+        <NamedIndividual IRI="#Edotco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#eSports_Hosting_and_Support"/>
+        <NamedIndividual IRI="#FIFA24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Business_Office_Telephone_Solutions"/>
+        <NamedIndividual IRI="#FixedBusinessOffice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Home_Broadeband"/>
+        <NamedIndividual IRI="#FixedHomeBroadband"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Home_Voice_Plans"/>
+        <NamedIndividual IRI="#FixedVoicePlan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamingMobileCustomer"/>
+        <NamedIndividual IRI="#ForzaMultiPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HeavyInternetMobileCustomer"/>
+        <NamedIndividual IRI="#ForzaMultiPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MediumIncomeMediumPayingMobileCustomer"/>
+        <NamedIndividual IRI="#ForzaMultiPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#eSports_Hosting_and_Support"/>
+        <NamedIndividual IRI="#ForzaMultiPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Home_Broadband_Fiber"/>
+        <NamedIndividual IRI="#Fun4GFiberService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#4G_Home_Broadband"/>
+        <NamedIndividual IRI="#Fun4GHomeBroadband"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#4g_LTE_Mobile_Data_Plan"/>
+        <NamedIndividual IRI="#Fun4GService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Home_Broadband_Fiber"/>
+        <NamedIndividual IRI="#Fun5GFiberService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#5G_Internet_Services"/>
+        <NamedIndividual IRI="#Fun5GHomeBroadband"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#5G_Mobile_Data_plan"/>
+        <NamedIndividual IRI="#Fun5GService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device_Insurance"/>
+        <NamedIndividual IRI="#FunDeviceInsurance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Microsloans_through_Mobile_Wallet"/>
+        <NamedIndividual IRI="#FunMicroLoan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobile_Wallet"/>
+        <NamedIndividual IRI="#FunMobileWallet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corporate_Internet_Leased_Lines"/>
+        <NamedIndividual IRI="#FunOffice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persomal_Loan_Services"/>
+        <NamedIndividual IRI="#FunPersonalLoans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileCustomers"/>
+        <NamedIndividual IRI="#Gamer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamingMobileCustomer"/>
+        <NamedIndividual IRI="#Gaminguser1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileCustomers"/>
+        <NamedIndividual IRI="#Gaminguser1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IOTEnterpriseCustomer"/>
+        <NamedIndividual IRI="#HidramaniEnterprseCustomer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UrbanRegions"/>
+        <NamedIndividual IRI="#HighPayingMobileCustomer-Doctor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMS"/>
+        <NamedIndividual IRI="#HiruBreakingNews"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Music"/>
+        <NamedIndividual IRI="#HungamaMusicService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cloud_Hosting_&amp;_Solutions"/>
+        <NamedIndividual IRI="#IFSCloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IVR"/>
+        <NamedIndividual IRI="#IVR_Lottery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_Streaming_Platform"/>
+        <NamedIndividual IRI="#Kiki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InternetServiceProviderCompany"/>
+        <NamedIndividual IRI="#LinkNet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMSAlertsMobileCustomer"/>
+        <NamedIndividual IRI="#LowPayingMobileCustomer-Campus_Student"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device_Insurance"/>
+        <NamedIndividual IRI="#MobiDeviceInsurance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Microsloans_through_Mobile_Wallet"/>
+        <NamedIndividual IRI="#MobiMicroLans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#POS_Terminals"/>
+        <NamedIndividual IRI="#MobiPOSSales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persomal_Loan_Services"/>
+        <NamedIndividual IRI="#MobiPersonalLoans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QR_Scanners"/>
+        <NamedIndividual IRI="#MobiQR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#eSIM"/>
+        <NamedIndividual IRI="#MobiteleSims"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Credit_and_Debit_Card_Payment_Integration"/>
+        <NamedIndividual IRI="#MyCreditPay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Credit_and_Debit_Card_Payment_Integration"/>
+        <NamedIndividual IRI="#MyDebitPay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Insurance"/>
+        <NamedIndividual IRI="#MyHealthInsurance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Life_Insuracne"/>
+        <NamedIndividual IRI="#MyLifeInsurance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobile_Wallet"/>
+        <NamedIndividual IRI="#MyMobileWallet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utility_Bill_Payments_via_Mobile_Wallet"/>
+        <NamedIndividual IRI="#MyPay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QR_Code_Payment_Services"/>
+        <NamedIndividual IRI="#MyQRCodes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_&amp;_Wellness"/>
+        <NamedIndividual IRI="#MyYoga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_&amp;_Wellness"/>
+        <NamedIndividual IRI="#MyZumba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming"/>
+        <NamedIndividual IRI="#NFSMobileGame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TelcoOperatingCompany"/>
+        <NamedIndividual IRI="#Ncell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Education_Services"/>
+        <NamedIndividual IRI="#NenaSala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileCustomers"/>
+        <NamedIndividual IRI="#Nimal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Music"/>
+        <NamedIndividual IRI="#PRBTMusicService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellite_TV"/>
+        <NamedIndividual IRI="#PeoTV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming"/>
+        <NamedIndividual IRI="#PubGMobileGame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IVR"/>
+        <NamedIndividual IRI="#PunchiLokayaIVR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TelcoOperatingCompany"/>
+        <NamedIndividual IRI="#Robi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMS"/>
+        <NamedIndividual IRI="#Sadaham_Mihira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TelcoOperatingCompany"/>
+        <NamedIndividual IRI="#Smart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Music"/>
+        <NamedIndividual IRI="#SpotifyMusicService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#On_Demand_Video_Content"/>
+        <NamedIndividual IRI="#Viu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_Streaming_Platform"/>
+        <NamedIndividual IRI="#Viu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#On_Demand_Video_Content"/>
+        <NamedIndividual IRI="#WowSuperApp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_Streaming_Platform"/>
+        <NamedIndividual IRI="#WowSuperApp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TelcoOperatingCompany"/>
+        <NamedIndividual IRI="#XL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Music"/>
+        <NamedIndividual IRI="#YoutubeMusicService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileCustomers"/>
+        <NamedIndividual IRI="#zUser1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preferService"/>
+        <NamedIndividual IRI="#CallOfDutyMultiPlayer"/>
+        <NamedIndividual IRI="#CallOfDutyMultiPlayer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#userService"/>
+        <NamedIndividual IRI="#CallOfDutyMultiPlayer"/>
+        <NamedIndividual IRI="#CallOfDutyMultiPlayer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preferService"/>
+        <NamedIndividual IRI="#Cricketer"/>
+        <NamedIndividual IRI="#Cricketer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#userService"/>
+        <NamedIndividual IRI="#Cricketer"/>
+        <NamedIndividual IRI="#Cricketer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preferService"/>
+        <NamedIndividual IRI="#Driver"/>
+        <NamedIndividual IRI="#Driver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#userService"/>
+        <NamedIndividual IRI="#Driver"/>
+        <NamedIndividual IRI="#Driver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+        <NamedIndividual IRI="#HidramaniEnterprseCustomer"/>
+        <NamedIndividual IRI="#HidramaniEnterprseCustomer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preferService"/>
+        <NamedIndividual IRI="#HighPayingCustomerAmpara_-_Lawyer"/>
+        <NamedIndividual IRI="#HighPayingCustomerAmpara_-_Lawyer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#userService"/>
+        <NamedIndividual IRI="#HighPayingCustomerAmpara_-_Lawyer"/>
+        <NamedIndividual IRI="#HighPayingCustomerAmpara_-_Lawyer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preferService"/>
+        <NamedIndividual IRI="#HighPayingMobileCustomer-Doctor"/>
+        <NamedIndividual IRI="#HighPayingMobileCustomer-Doctor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#userService"/>
+        <NamedIndividual IRI="#HighPayingMobileCustomer-Doctor"/>
+        <NamedIndividual IRI="#HighPayingMobileCustomer-Doctor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preferService"/>
+        <NamedIndividual IRI="#LowPayingMobileCustomer-Campus_Student"/>
+        <NamedIndividual IRI="#LowPayingMobileCustomer-Campus_Student"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#userService"/>
+        <NamedIndividual IRI="#LowPayingMobileCustomer-Campus_Student"/>
+        <NamedIndividual IRI="#LowPayingMobileCustomer-Campus_Student"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preferService"/>
+        <NamedIndividual IRI="#MediumPayingMobileCustomer-Teacher"/>
+        <NamedIndividual IRI="#MediumPayingMobileCustomer-Teacher"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#userService"/>
+        <NamedIndividual IRI="#MediumPayingMobileCustomer-Teacher"/>
+        <NamedIndividual IRI="#MediumPayingMobileCustomer-Teacher"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIncome"/>
+        <NamedIndividual IRI="#Cricketer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Gaminguser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arpu"/>
+        <NamedIndividual IRI="#Gaminguser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gameLover"/>
+        <NamedIndividual IRI="#Gaminguser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUserRegion"/>
+        <NamedIndividual IRI="#Gaminguser1"/>
+        <Literal>Galle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#preferred_langugage"/>
+        <NamedIndividual IRI="#Gaminguser1"/>
+        <Literal>english</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIncome"/>
+        <NamedIndividual IRI="#HighPayingCustomerAmpara_-_Lawyer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">300000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIncome"/>
+        <NamedIndividual IRI="#HighPayingMobileCustomer-Doctor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIncome"/>
+        <NamedIndividual IRI="#MediumPayingMobileCustomer-Teacher"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">200000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arpu"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cyberGames"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gameLover"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal>&quot;female&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genieUser"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIncome"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#movieLover"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#parent"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#promotionalSeeker"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#socialMediaLover"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sportsLover"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sportsLover"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#starpointUser"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#viuAppUser"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#whatsappUser"/>
+        <NamedIndividual IRI="#MusicLoverUser1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ClutterHasRegions"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belongsToClutterRegionSegment"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belongsToEnterpriseSegment"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bundleWith"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClutterRegionSegment"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSolutionProvider"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#linkedToRegion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requireDigitalconsulting"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#userEnterpriseService"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#userService"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ClutterHasRegions"/>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belongsToClutterRegionSegment"/>
+        <ObjectProperty IRI="#hasClutterRegionSegment"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+        <ObjectProperty IRI="#hasSolutionProvider"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#belongsToClutterRegionSegment"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#ClutterHasRegions"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasClutterRegionSegment"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ClutterHasRegions"/>
+        <Class IRI="#Clutter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToClutterRegionSegment"/>
+        <Class IRI="#ClutterRegionSegments"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToEnterpriseSegment"/>
+        <Class IRI="#EnterpriseCustomer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <Class IRI="#MobileCustomers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bundleWith"/>
+        <Class IRI="#Services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClutterRegionSegment"/>
+        <Class IRI="#EnterpriseCustomer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClutterRegionSegment"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClutterRegionSegment"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClutterRegionSegment"/>
+        <Class IRI="#MobileCustomers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+        <Class IRI="#DeviceBrand"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <Class IRI="#MobileCustomers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSubService"/>
+        <Class IRI="#Services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#Services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#linkedToRegion"/>
+        <Class IRI="#EnterpriseCustomer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#linkedToRegion"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#linkedToRegion"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#linkedToRegion"/>
+        <Class IRI="#MobileCustomers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#MobileCustomers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preferService"/>
+        <Class IRI="#MobileCustomers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <Class IRI="#Services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requireDigitalconsulting"/>
+        <Class IRI="#Services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+        <Class IRI="#Services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <Class IRI="#Services"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#userEnterpriseService"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#userService"/>
+        <Class IRI="#MobileCustomers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ClutterHasRegions"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+        <Class IRI="#Clutter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+        <Class IRI="#EnterpriseCustomer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegionBelongsToClutter"/>
+        <Class IRI="#MobileCustomers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToClutterRegionSegment"/>
+        <Class IRI="#EnterpriseCustomer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToClutterRegionSegment"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToClutterRegionSegment"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToClutterRegionSegment"/>
+        <Class IRI="#MobileCustomers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToEnterpriseSegment"/>
+        <Class IRI="#EnterpriseCustomerSegment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <Class IRI="#MobileCustomerSegment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bundleWith"/>
+        <Class IRI="#Internet_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bundleWith"/>
+        <Class IRI="#Value_Added_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClutterRegionSegment"/>
+        <Class IRI="#ClutterRegionSegments"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDeviceBrandCapability"/>
+        <Class IRI="#DeviceCapability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+        <Class IRI="#Business_Solutions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <Class IRI="#Financial_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <Class IRI="#Teleommunication_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <Class IRI="#Value_Added_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <Class IRI="#Entertainment_&amp;_Media_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectUnionOf>
+            <Class IRI="#Business_Solutions"/>
+            <Class IRI="#Digital_Lifestyle_Services"/>
+            <Class IRI="#Financial_Services"/>
+            <Class IRI="#Teleommunication_Services"/>
+            <Class IRI="#Value_Added_Services"/>
+            <Class IRI="#Entertainment_&amp;_Media_Services"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#TelcoMotherCompany"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#linkedToRegion"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#Locations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferService"/>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferService"/>
+        <Class IRI="#Financial_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferService"/>
+        <Class IRI="#Teleommunication_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferService"/>
+        <Class IRI="#Value_Added_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferService"/>
+        <Class IRI="#Entertainment_&amp;_Media_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#API_Integration_for_Business_Aplications"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Business_Office_Telephone_Solutions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Corporate_VOIP_Solutions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Digital_Advertising_Solutions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Digital_Marketing_Campaings_and_Analytics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Enterprise_SMS_and_USSD_Solutions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Enterprise_VPN_Solutions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Machine_to_Machine_Connectivity_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Managed_Network_Services_for_Businesses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Vehicle_Fleet_Management_Solutions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefrEnterpriseService"/>
+        <Class IRI="#Cloud_Hosting_&amp;_Solutions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <Class IRI="#DigitalAdvertising&amp;AnalyticsCompany"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requireDigitalconsulting"/>
+        <Class IRI="#DigitalConsulting&amp;SolutionsCompany"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+        <Class IRI="#DigitalFinancialProductCompany"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <Class IRI="#Infrastucture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#userEnterpriseService"/>
+        <Class IRI="#Business_Solutions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#userService"/>
+        <Class IRI="#Digital_Lifestyle_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#userService"/>
+        <Class IRI="#Financial_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#userService"/>
+        <Class IRI="#Teleommunication_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#userService"/>
+        <Class IRI="#Value_Added_Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#userService"/>
+        <Class IRI="#Entertainment_&amp;_Media_Services"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#bundleWith"/>
+        <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasSolutionProvider"/>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#linkedToRegion"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <ObjectProperty IRI="#requireDigitalconsulting"/>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#bundleWith"/>
+        <ObjectProperty IRI="#hasEnterpriseCustomer"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#linkedToRegion"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <ObjectProperty IRI="#requireDigitalconsulting"/>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#bundleWith"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#linkedToRegion"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <ObjectProperty IRI="#requireDigitalconsulting"/>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#bundleWith"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <ObjectProperty IRI="#requireDigitalconsulting"/>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <ObjectProperty IRI="#requireDigitalconsulting"/>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <ObjectProperty IRI="#requireDigitalfinancial"/>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#requireDigitalAdvertising"/>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#requireInfrastructure"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasSubService"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belongsToSegment"/>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasMobileCustomer"/>
+        <ObjectProperty IRI="#hasTelcoOpco"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#preferService"/>
+        <ObjectProperty IRI="#userService"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#aiSeeker"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#arpu"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cloudAdapter"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#digitalTransformationSeeker"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#enterpriseScale"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#gender"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#genieUser"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#greenTechSeeker"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasIncome"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasUserRegion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#innovationSeeker"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#iotInnovator"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#marketingAnalyticsSeeker"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#parent"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#preferred_langugage"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#profession"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#promotionalSeeker"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#religion"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#remoteWorkFriendly"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#securityFocused"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#sportsLover"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#starpointUser"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#viuAppUser"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#whatsappUser"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+    </SubDataPropertyOf>
+    <DisjointDataProperties>
+        <DataProperty IRI="#age"/>
+        <DataProperty IRI="#arpu"/>
+        <DataProperty IRI="#enterpriseScale"/>
+        <DataProperty IRI="#gender"/>
+        <DataProperty IRI="#hasEnterpriseUserProfillingScores"/>
+        <DataProperty IRI="#hasIncome"/>
+        <DataProperty IRI="#hasMobileUserProfilingScores"/>
+        <DataProperty IRI="#hasUserRegion"/>
+        <DataProperty IRI="#preferred_langugage"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#aiSeeker"/>
+        <DataProperty IRI="#cloudAdapter"/>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#digitalTransformationSeeker"/>
+        <DataProperty IRI="#greenTechSeeker"/>
+        <DataProperty IRI="#innovationSeeker"/>
+        <DataProperty IRI="#iotInnovator"/>
+        <DataProperty IRI="#marketingAnalyticsSeeker"/>
+        <DataProperty IRI="#remoteWorkFriendly"/>
+        <DataProperty IRI="#securityFocused"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#aiSeeker"/>
+        <DataProperty IRI="#cloudAdapter"/>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#digitalTransformationSeeker"/>
+        <DataProperty IRI="#greenTechSeeker"/>
+        <DataProperty IRI="#innovationSeeker"/>
+        <DataProperty IRI="#iotInnovator"/>
+        <DataProperty IRI="#remoteWorkFriendly"/>
+        <DataProperty IRI="#securityFocused"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#aiSeeker"/>
+        <DataProperty IRI="#cloudAdapter"/>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#greenTechSeeker"/>
+        <DataProperty IRI="#innovationSeeker"/>
+        <DataProperty IRI="#iotInnovator"/>
+        <DataProperty IRI="#remoteWorkFriendly"/>
+        <DataProperty IRI="#securityFocused"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#aiSeeker"/>
+        <DataProperty IRI="#cloudAdapter"/>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#innovationSeeker"/>
+        <DataProperty IRI="#iotInnovator"/>
+        <DataProperty IRI="#remoteWorkFriendly"/>
+        <DataProperty IRI="#securityFocused"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#aiSeeker"/>
+        <DataProperty IRI="#cloudAdapter"/>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#innovationSeeker"/>
+        <DataProperty IRI="#remoteWorkFriendly"/>
+        <DataProperty IRI="#securityFocused"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cloudAdapter"/>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#innovationSeeker"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cloudAdapter"/>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#innovationSeeker"/>
+        <DataProperty IRI="#remoteWorkFriendly"/>
+        <DataProperty IRI="#securityFocused"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cloudAdapter"/>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#innovationSeeker"/>
+        <DataProperty IRI="#securityFocused"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#costSaver"/>
+        <DataProperty IRI="#innovationSeeker"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#genieUser"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#parent"/>
+        <DataProperty IRI="#profession"/>
+        <DataProperty IRI="#promotionalSeeker"/>
+        <DataProperty IRI="#religion"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#sportsLover"/>
+        <DataProperty IRI="#starpointUser"/>
+        <DataProperty IRI="#viuAppUser"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#genieUser"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#parent"/>
+        <DataProperty IRI="#profession"/>
+        <DataProperty IRI="#religion"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#sportsLover"/>
+        <DataProperty IRI="#starpointUser"/>
+        <DataProperty IRI="#viuAppUser"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#parent"/>
+        <DataProperty IRI="#profession"/>
+        <DataProperty IRI="#religion"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#sportsLover"/>
+        <DataProperty IRI="#starpointUser"/>
+        <DataProperty IRI="#viuAppUser"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#parent"/>
+        <DataProperty IRI="#profession"/>
+        <DataProperty IRI="#religion"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#sportsLover"/>
+        <DataProperty IRI="#starpointUser"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#parent"/>
+        <DataProperty IRI="#profession"/>
+        <DataProperty IRI="#religion"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#sportsLover"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#parent"/>
+        <DataProperty IRI="#profession"/>
+        <DataProperty IRI="#religion"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#parent"/>
+        <DataProperty IRI="#profession"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#parent"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#cyberGames"/>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#movieLover"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#entertainmentMusicLover"/>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#gameLover"/>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#socialMediaLover"/>
+        <DataProperty IRI="#whatsappUser"/>
+    </DisjointDataProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
